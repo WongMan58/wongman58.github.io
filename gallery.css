@@ -1,11 +1,12 @@
 header {
     text-align: center;
-    background-color: #06D6A0;
+    background-color: #6C584C;
     padding-top: 0.8em;
     padding-bottom: 0.8em;
     font-family: Segoe,'Segoe UI', "DejaVu Sans", "Trebuchet MS", "sans-serif";
-    font-size: 2em;
+    font-size: 2.25em;
     font-weight: bold;
+    color: #ADC178;
 }
 
 .gallery {
@@ -27,7 +28,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.581);
+    background: rgba(0, 0, 0, 0.644);
     z-index: 1;
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
@@ -50,17 +51,24 @@ header {
     max-width: 80%;
     max-height: 80%;
     text-align: center;
+    padding-bottom: 1.25em;
 }
 
 .modal-text {
     display: inline-block;
-    background-color: #bc9e58;
-    color: #073B4C;
+    background-color: #eee0aada;
+    color: #1e4f5fda;
     padding-left: 4em;
     padding-right: 4em;
-    font-size: 1.05em;
+    font-size: 1.15em;
+    padding-bottom: 1.25em;
+}
+
+.modal-text h2 {
+    font-size: 1.35em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
-    background-color: #118AB2;
+    background-color: #A98467;
 }
