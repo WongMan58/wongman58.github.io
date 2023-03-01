@@ -72,3 +72,10 @@ header {
 body {
     background-color: #A98467;
 }
+
+@media only screen and (max-width: 600px) {
+    .modal-text p .modal-text p2 {
+        overflow: auto;
+        max-height: 150px;
+    }
+}
